@@ -47,7 +47,7 @@ while 1:
                 elif "send a mail" in pinger :
                    mail=raw_input("Plese Enter your Mail-Id: ");
                    import yagmail
-                   yag = yagmail.SMTP("vickytauruss@gmail.com","Vikas@250" )
+                   yag = yagmail.SMTP("yourmailaddress","password" )
                    yag.send(mail, subject = "Mail Bot by Vikas" ,contents="Jarvis Generated Mail");
                # elif "search a video on"
                 

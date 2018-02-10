@@ -1,5 +1,5 @@
 import telepot
-token = '400007530:AAFIqRztleyDEbc8dsw-lEtx8p6NlzIIg0Y'
+token = 'Put Your Telegram token key here'
 TelegramBot = telepot.Bot(token)
 
 from telepot.loop import MessageLoop
